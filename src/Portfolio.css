@@ -1,0 +1,237 @@
+@import url(Global.css);
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 100px 20vw;
+}
+
+.card {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about_me {
+  /*background: #3c31dd;*/
+}
+
+.projects {
+  /*background: #dd3f31;*/
+  padding: 50px;
+}
+
+.resume {
+  /*background: #ff0066; */
+  padding: 50px !important;
+}
+
+.dark {
+  background: #0f0f10;
+}
+
+.projects h3,
+.resume h3 {
+  color: #ffffff;
+}
+
+.blue-card {
+  background: #eaecff;
+  color: #424242;
+  border-radius: 20px;
+  border: inherit;
+}
+
+.rounded-end {
+  border-radius: 20px !important;
+}
+
+.custom-shape-divider-bottom-1630443749 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1630443749 svg {
+  position: relative;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 25px;
+}
+
+.custom-shape-divider-bottom-1630443749 .shape-fill {
+  fill: #0066ff;
+}
+
+/* Resume */
+/*
+.profile .list-titles {
+  float: left;
+  text-align: left;
+  font-weight: 600;
+  width: 40%;
+  color: #4a4e51;
+}
+.profile .list-content {
+  float: left;
+  width: 60%;
+  text-align: left;
+  font-weight: 300;
+}
+.profile .contact-presentation {
+  text-align: left;
+  font-weight: 300;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+@media (max-width: 1200px) {
+  .profile .contact-presentation {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 850px) {
+  .profile .contact-presentation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+} */
+
+.experience {
+  /*background: #3d3e42;*/
+  position: relative;
+  /*color: #9099a0; */
+  color: #353535;
+  font-weight: 300;
+  min-height: 100%;
+  min-height: 100vh;
+}
+@media (max-width: 850px) {
+  .experience {
+    width: 100%;
+  }
+}
+.experience h3.project-title {
+  /*color: #66cc99; */
+  color: #36c0a2;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.experience .company-wrapper {
+  width: 30%;
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 60px;
+  font-weight: 400;
+}
+@media (max-width: 450px) {
+  .experience .company-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.experience .job-wrapper {
+  width: 70%;
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 60px;
+  font-weight: 400;
+}
+@media (max-width: 450px) {
+  .experience .job-wrapper {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+.experience .project-title {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.section-padding {
+  padding: 60px 60px 40px 40px;
+}
+@media (max-width: 850px) {
+  .section-padding {
+    padding: 80px 15% 40px 10%;
+  }
+}
+@media (max-width: 450px) {
+  .section-padding {
+    padding: 40px 10% 20px 5%;
+  }
+}
+
+.section-wrapper {
+  text-align: left;
+  /*color: #9099a0; */
+  color: #6f6f6f;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+@media (max-width: 450px) {
+  .section-wrapper {
+    width: 100%;
+  }
+}
+.section-wrapper:nth-child(3) {
+  padding-right: 8%;
+}
+.section-wrapper h3.section-title {
+  color: #66cc99;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.section-wrapper .skill {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.resume-columns {
+  columns: 3;
+}
+
+.resume-title {
+  margin-bottom: 20px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .resume-columns {
+    columns: unset;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .card-breakpoint {
+    margin-left: 1rem !important;
+  }
+}
+.card-style {
+  border-radius: 20px;
+}
+
+.rounded-start {
+  border-radius: 20px !important;
+}
+
+@media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 49%;
+  }
+}
