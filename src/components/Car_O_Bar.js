@@ -18,7 +18,7 @@ function Car_O_Bar() {
           </div>
         </div>
         <div class="col-md-7">
-        <img src={Car_O_Bar_Transparent} class="img-fluid rounded-start" alt="..." />
+        <img src={Car_O_Bar_Transparent} class="img-fluid rounded-start" alt="..." loading="lazy" />
         </div>
       </div>
     </div>

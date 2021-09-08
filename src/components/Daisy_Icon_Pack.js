@@ -1,5 +1,5 @@
 import React from "react";
-import MotionTech_Alt from "../img/MotionTech_Alt.png";
+import DaisyIconPackSVG from '../img/Daisy_Icon_Pack_Preview.svg'
 function DaisyIconPack() {
   return (
     <div class="col-sm-6 card-breakpoint">
@@ -23,9 +23,10 @@ function DaisyIconPack() {
           </div>
           <div class="col-md-7">
             <img
-              src={MotionTech_Alt}
+              src={DaisyIconPackSVG}
               class="img-fluid rounded-start"
               alt="..."
+              loading="lazy"
             />
           </div>
         </div>

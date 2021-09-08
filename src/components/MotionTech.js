@@ -1,5 +1,6 @@
 import React from "react";
 import MotionTech_Alt from "../img/MotionTech_Alt.png";
+import MotionTech_SVG from "../img/MotionTech_SVG.svg";
 function MotionTech() {
   return (
     <div class="col-sm-6">
@@ -18,7 +19,7 @@ function MotionTech() {
             </div>
           </div>
           <div class="col-md-7">
-            <img src={MotionTech_Alt} class="img-fluid rounded-start" alt="..." />
+            <img src={MotionTech_SVG} class="img-fluid rounded-start" alt="..." loading="lazy" />
           </div> 
         </div>
         

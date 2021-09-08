@@ -1,5 +1,5 @@
 import React from "react";
-import MotionTech_Alt from "../img/MotionTech_Alt.png";
+import Sizzy_SVG from "../img/Sizzy_Icon_Pack_Preview.svg";
 function SizzyIconPack() {
   return (
     <div class="col-sm-6">
@@ -22,9 +22,10 @@ function SizzyIconPack() {
           </div>
           <div class="col-md-7">
             <img
-              src={MotionTech_Alt}
+              src={Sizzy_SVG}
               class="img-fluid rounded-start"
               alt="..."
+              loading="lazy"
             />
           </div>
         </div>
