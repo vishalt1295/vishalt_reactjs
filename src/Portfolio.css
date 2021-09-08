@@ -235,3 +235,15 @@ section {
     width: 49%;
   }
 }
+
+.btn-primary {
+  margin-top: 9rem;
+}
+
+.play_button {
+  margin-top: 6rem;
+}
+
+.daisy_play_button {
+  margin-top: 4.5rem;
+}

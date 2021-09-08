@@ -1,6 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import MotionTech from '../img/MotionTech_Alt.png';
+import MotionTech from "./MotionTech";
+import Car_O_Bar from "./Car_O_Bar";
+import DaisyIconPack from "./Daisy_Icon_Pack";
+import SizzyIconPack from "./Sizzy_Icon_Pack";
+
 function Projects() {
   return (
     <section class="projects" id="projects">
@@ -8,109 +11,24 @@ function Projects() {
 
       <div class="container-fluid g-0">
         <div class="row g-0 align-items-center">
-          <div class="col-sm-6">
-            <div class="card card-style mb-3">
-              <div class="row g-0">
-                <div class="col-md-5">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <p class="card-text">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-7">
-                  <img src={MotionTech} class="img-fluid rounded-start" alt="..." />
-                </div>
-              </div>
-            </div>
-          </div>
+          <MotionTech />
 
-          <div class="col-sm-6 card-breakpoint">
-            <div class="card card-style mb-3">
-              <div class="row g-0">
-                <div class="col-md-5">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <p class="card-text">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-7">
-                <img src={MotionTech} class="img-fluid rounded-start" alt="..." />
-                </div>
-              </div>
-            </div>
-          </div>
+         {/*<Car_O_Bar /> */}
+
         </div>
 
         <div class="row g-0">
-          <div class="col-sm-6">
-            <div class="card card-style mb-3">
-              <div class="row g-0">
-                <div class="col-md-5">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <p class="card-text">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-7">
-                <img src={MotionTech} class="img-fluid rounded-start" alt="..." />
-                </div>
-              </div>
-            </div>
-          </div>
+        <SizzyIconPack /> 
+        <DaisyIconPack />
 
-          <div class="col-sm-6 card-breakpoint">
-            <div class="card card-style mb-3">
-              <div class="row g-0">
-                <div class="col-md-5">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <p class="card-text">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-7">
-                <img src={MotionTech} class="img-fluid rounded-start" alt="..." />
-                </div>
-              </div>
-            </div>
-          </div>
+         
+
         </div>
       </div>
 
       <div class="custom-shape-divider-bottom-1630443749">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
+        <svg data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path
             d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
             opacity=".25"
