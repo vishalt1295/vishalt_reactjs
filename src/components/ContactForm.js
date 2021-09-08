@@ -4,23 +4,42 @@ import ReactDOM from "react-dom";
 function ContactForm() {
   return (
     <section class="contact_form">
-
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
-
-
+      <div class="container-fluid">
+        <div class="row g-0">
+          <div class="col-8 mx-auto">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">
+                  Email address
+                </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">
+                  Password
+                </label>
+                <input type="password" class="form-control" id="exampleInputPassword1" />
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1">
+                  Check me out
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
       <div class="custom-shape-divider-bottom-1630443749">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
-          preserveAspectRatio="none">
+          preserveAspectRatio="none"
+        >
           <path
             d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
             opacity=".25"

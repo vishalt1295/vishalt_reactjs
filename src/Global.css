@@ -267,6 +267,13 @@ body {
       .experience {
         color: #bebebe!important;
       }
+
+      form {
+          color: #ffffff;
+      }
 }
 
 
+.form-control {
+    border: none!important;
+}

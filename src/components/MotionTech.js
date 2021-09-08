@@ -14,7 +14,7 @@ function MotionTech() {
                 <li>Compare Android and iOS phone features</li>
                 <li>Multiple pages with two tier navigation</li>
               </ul>
-              <a href="https://vishalt1295.github.io/motiontech/" type="button" class="btn btn-primary" target="_blank"
+              <a href="https://vishalt1295.github.io/motiontech/" type="button" class="btn btn-primary visit-button" target="_blank"
                rel="noreferrer">Visit <i class="bi bi-arrow-right-short"></i></a>
             </div>
           </div>

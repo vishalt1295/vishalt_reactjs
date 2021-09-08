@@ -10,7 +10,7 @@ function Sections() {
     <AboutMe />
     <Projects />
     <Resume />
-    <ContactForm />
+    {/*<ContactForm />*/}
     </>
   );
 }
