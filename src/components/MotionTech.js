@@ -15,7 +15,7 @@ function MotionTech() {
                 <li>Multiple pages with two tier navigation</li>
               </ul>
               <a href="https://vishalt1295.github.io/motiontech/" type="button" class="btn btn-primary visit-button" target="_blank"
-               rel="noreferrer">Visit <i class="bi bi-arrow-right-short"></i></a>
+               rel="noreferrer">Visit Website</a>
             </div>
           </div>
           <div class="col-md-7">
