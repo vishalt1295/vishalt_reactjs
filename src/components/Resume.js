@@ -31,7 +31,7 @@ function Resume() {
               </ul>
 
               <h5 class="card-title resume-title">
-                Web Services &amp; Database
+                Database
               </h5>
               <ul>
                 <li class="skill">MySQL</li>
