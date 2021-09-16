@@ -14,7 +14,7 @@ function Resume() {
 
               <h5 class="card-title resume-title">Languages</h5>
               <ul>
-                <li class="skill">ReactJs</li>
+                <li class="skill">ReactJS</li>
                 <li class="skill">JavaScript (Basic)</li>
                 <li class="skill">Visual Basic</li>
                 <li class="skill">HTML</li>
@@ -34,7 +34,6 @@ function Resume() {
                 Web Services &amp; Database
               </h5>
               <ul>
-                <li class="skill">REST service</li>
                 <li class="skill">MySQL</li>
                 <li class="skill">SQL</li>
               </ul>
