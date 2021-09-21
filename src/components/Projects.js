@@ -13,7 +13,7 @@ function Projects() {
         <div class="row g-0 align-items-center">
           <MotionTech />
 
-         {/*<Car_O_Bar /> */}
+         <Car_O_Bar />
 
         </div>
 
